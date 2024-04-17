@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(0, 0, 0);
+    cursor: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F1282125330%2Fpt%2Fvetorial%2Fvector-realistic-isolated-drumsticks-on-the-transparent-background-concept-of-drum-playing.jpg%3Fs%3D1024x1024%26w%3Dis%26k%3D20%26c%3DMej2ZM9UMFqWh7go3nV0W-DJOG8kuU7U8dAKUVzLwcc%3D&tbnid=6-i9jIoaw9gepM&vet=12ahUKEwi4ubP0q5yEAxXkN7kGHQpICxAQMygKegQIARBe..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fbr%2Fvetor%2Fvetores-realistas-coxas-isoladas-no-fundo-transparente-conceito-de-tocar-bateria-gm1282125330-379946645&docid=OgHHRo1vsZbAvM&w=1024&h=682&itg=1&q=foto%20de%20baqueta%20sem%20o%20fundo&hl=pt-BR&client=firefox-b-d&ved=2ahUKEwi4ubP0q5yEAxXkN7kGHQpICxAQMygKegQIARBe);
+}
+
+h1{
+ text-align: center;
+}
+
+main{
+    top: 90px;
+    left: 70px;
+}
+
+.buttons{
+ background-color: red;
+}
+
+header{
+    margin: 0%;
+    padding: 0;
+    color: white;
+}
+area{
+    outline: 2px solid blue;
+}
+area:hover{
+    opacity: 10.6;
+    
+}
+
+.bateria{
+    
+   width: 49%;
+    border: 2px solid #ccc;
+}
+
+#bateria1{
+    top: 90px;
+    left: 70px;
+}
+
