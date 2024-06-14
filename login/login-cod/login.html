@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+   
+   
+</head>
+
+<body>
+    <div class="form-container">
+    <h2>Faça seu login</h2>
+    <form>
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" placeholder="digite seu email">
+
+
+
+        <label for="senha">Senha 2: </label>
+        <input type="password" id="senha" name="senha" placeholder="***********">
+        <input type="checkbox" id="visuSenha" onchange="SenhaVisu(); MudarFoto();">
+        <label for="visuSenha"><img src="imagens/olho.png" 
+            alt="olho" width="25" height="25" id="olhoAberto"> 
+       </label> 
+
+        
+  <script>
+  function MudarFoto() {
+        var visu = document.getElementById('visuSenha')
+        var imagem = document.getElementById('olhoAberto');
+    
+        if (visu.checked){
+            imagem.src = "imagens/fechado/fechado.png";
+            imagem.alt = "fechado";
+    
+        } else {
+            imagem.src = "imagens/olho.png";
+            imagem.alt = "olho";
+        }
+    }
+</script>
+        <br>
+        <br>
+        <input type="submit" id="enviar" value="Enviar">
+
+       <a href="#">  <button type="button">Esqueci minha senha</button> </a>
+        <br>
+        <br>
+        
+    </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.form-container{
+    width: 310px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #D9B29C;
+    border-radius: 25px;
+    
+    
+}
+
+#email, #senha{
+    width: 90%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+#enviar{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 110px;
+    top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 1s ease-in;
+}
+
+button{
+    position: relative;
+    width: 103%;
+    top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+#enviar:hover{
+    background-color: #3f1859;
+    color: #f2ebd5;
+    border: 0;
+}
+button:hover{
+    color: #f2ebd5;
+    box-shadow: inset -12.5em 0 0 0 #3f1859,
+    inset 12.5em 0 0 0 #3f1859;
+}
+
+
+body{
+    background-color: #012840;
+    color: #3E5159;
+}
