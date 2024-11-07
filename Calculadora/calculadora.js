@@ -24,14 +24,14 @@ function AddOpp(op) {
   var exibir = document.getElementById('exibir');
   var valorAtual = exibir.value;
 
-  if (valorAtual === '') return; // Evita adicionar operador se não houver número
+  if (valorAtual === '') return; 
 
-  // Verificar se o último caractere é um operador
+ 
   if (['+', '-', '*', '/'].includes(valorAtual.charAt(valorAtual.length - 1))) {
-    // Substitui o operador existente pelo novo operador
+  
     exibir.value = valorAtual.slice(0, -1) + op;
   } else {
-    numeros.push(parseFloat(valorAtual)); // Armazena o número no array
+    numeros.push(parseFloat(valorAtual));
     exibir.value += op;
   }
 
@@ -44,7 +44,7 @@ function Calcular() {
   var valorAtual = parseFloat(exibir.value);
 
   if (!isNaN(valorAtual)) {
-    numeros.push(valorAtual); // Armazena o último número antes de calcular
+    numeros.push(valorAtual); 
   }
 
   let resultado;
